@@ -34,7 +34,8 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/Markson17/Product-preview-card)
-- Live Site URL: [The github live page](https://your-live-site-url.com)
+- Live Site URL: 
+(https://markson17.github.io/Product-preview-card/)
 
 ## My process
 
