@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
+    
 }
 
 .attribution {
@@ -44,6 +45,7 @@ body {
     height: 55%;
     width: 100%;
     border-radius: 8px 0px 0px 8px;
+    max-height: 100%;
 
 }
 
@@ -118,7 +120,47 @@ a {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        height: 130vh;
+        margin-top: 9rem;
+        border-radius: 50%;
+    }
+    .right {
+        background-color: hsl(0, 0%, 100%);
+        width: 17rem;
+        height: 23rem;
+        border-radius: 0px 8px 8px 0px;
+        padding-left: 20px;
+        padding-right: 50px;
+        
+    }  
+    .desktop {
+        width: 17rem;
+        border-radius: 8px 0px 0px 8px;
+        height: 23rem;
+    }
+    p {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        margin-right: -25px;
+    }
+    .attribution {
+        font-size: 20px;
+        text-align: center;
+        margin-top: -29rem;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -152,7 +194,7 @@ a {
     }
 
     button {
-        width: 112%;
+        width: 100%;
     }
 
     .attribution {
@@ -160,7 +202,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 413px) {
     .container {
         display: flex;
         flex-direction: column;
