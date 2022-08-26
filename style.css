@@ -19,7 +19,6 @@ body {
 .attribution {
     font-size: 20px;
     text-align: center;
-    margin-top: -230px;
 }
 
 .attribution a {
@@ -31,7 +30,6 @@ body {
     margin: auto;
     display: flex;
     justify-content: center;
-    height: 100vh;
     margin-top: 100px;
     border-radius: 50%;
 
@@ -123,17 +121,15 @@ a {
 @media only screen and (min-width: 600px) {
     .container {
         width: 50%;
-        margin: auto;
         display: flex;
         justify-content: center;
-        height: 130vh;
         margin-top: 9rem;
         border-radius: 50%;
     }
     .right {
         background-color: hsl(0, 0%, 100%);
         width: 17rem;
-        height: 23rem;
+        height: 23em;
         border-radius: 0px 8px 8px 0px;
         padding-left: 20px;
         padding-right: 50px;
@@ -142,7 +138,7 @@ a {
     .desktop {
         width: 17rem;
         border-radius: 8px 0px 0px 8px;
-        height: 23rem;
+        height: 23em;
     }
     p {
         font-size: 14px;
@@ -152,7 +148,8 @@ a {
     .attribution {
         font-size: 20px;
         text-align: center;
-        margin-top: -765px;
+
+
     }
     
     .attribution a {
@@ -245,6 +242,6 @@ a {
     }
 
     .attribution {
-        margin-top: -5px;
+        margin-top: 10px;
     }
 }
