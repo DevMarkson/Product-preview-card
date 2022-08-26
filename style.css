@@ -98,6 +98,7 @@ p {
 button {
     width: 220px;
     background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
     padding: 12px;
     margin-top: 22px;
     justify-content: center;
@@ -113,10 +114,6 @@ svg {
     margin-bottom: -3px;
 }
 
-a {
-    color: hsl(0, 0%, 100%);
-    text-decoration: none;
-}
 
 @media only screen and (min-width: 600px) {
     .container {
